@@ -634,7 +634,7 @@ h1.title1 {
 /*  5. Help us area CSS
 /*----------------------------------------*/
 .help-us-area {
-  background: rgba(0, 0, 0, 0) url("img/help-us-bg.jpg") repeat fixed 0 0;
+  background: rgba(0, 0, 0, 0) url("img/help3.jpg") repeat fixed 0 0;
   color: #fff;
 }
 .section-title-style-two.text-center {
@@ -1185,7 +1185,7 @@ h1.title1 {
 /*  13. About us CSS
 /*----------------------------------------*/
 .page-title-area {
-  background: rgba(0, 0, 0, 0) url("img/about/page-banner.jpg") repeat scroll 0 0 / cover ;
+  background: rgba(0, 0, 0, 0) url("img/help6.jpg") repeat scroll 0 0 / cover ;
   padding: 150px 0 90px;
   position: relative;
 }

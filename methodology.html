@@ -22,6 +22,15 @@
         <link rel="stylesheet" href="master.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <style media="screen">
+        body {
+          background: url(./img/background/bg-5.jpg) !important;
+          background-attachment: fixed !important;
+          background-repeat: no-repeat !important;
+          background-size: cover !important;
+          background-color: #fff;
+        }
+        </style>
 
 
     </head>
@@ -45,9 +54,6 @@
                                             <li><a href="#">Follow Us On:</a></li>
                                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
                                             <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                         </ul>
                                     </nav>
@@ -57,7 +63,7 @@
                                 <div class="call-to-action">
                                     <nav>
                                         <ul>
-                                            <li><a href="mailto:cirdev@cirdev-nigeria.org"><i class="fa fa-envelope" aria-hidden="true"></i> Email: cirdev@cirdev-nigeria.org</a></li>
+                                            <li><a href="mailto:cirdev@cirdev-nigeria.org"><i class="fa fa-envelope" aria-hidden="true"></i> Email: info@cirdev-nigeria.org</a></li>
                                             <li><a href="tel:+5881234567"><i class="fa fa-phone" aria-hidden="true"></i> Phone: +5(88) 123-4567</a></li>
 
                                         </ul>
@@ -75,7 +81,7 @@
                             <div class="col-sm-3">
                                 <div class="logo ptb-32">
                                     <a href="index.html">
-                                        <img src="img/CIRDEV logo.jpg" alt="" style="height:50px">
+                                        <img src="img/CIRDEVLogo.jpg" alt="" style="height:50px">
                                     </a>
                                 </div>
                             </div>
@@ -83,10 +89,17 @@
                                 <div class="main-menu">
                                     <nav>
                                         <ul>
-                                            <li><a href="#">Home</a></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="#">Methodology</a></li>
-                                            <li><a href="#">Blog</a></li>
+                                          <li><a class="home" href="index.html">Home</a></li>
+                                          <li><a href="#">Who we are</a>
+                                                                <ul class="drop-menu">
+                                                                    <li><a href="about.html">About</a></li>
+                                                                    <li><a href="methodology.html">Methodology</a></li>
+                                                                </ul>
+                                                            </li>
+                                          <li><a href="#">Event</a></li>
+                                          <li><a href="#">Project</a></li>
+                                          <li><a href="#">Blog</a></li>
+                                          <li><a href="#footer">Contact Us</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -105,10 +118,17 @@
                             <div class="mobile-menu">
                                 <nav id="dropdown">
                                     <ul class="nav">
-                                        <li><a class="home" href="#">Home</a>
-                                          </li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="#">Blog</a></li>
+                                      <li><a class="home" href="index.html">Home</a></li>
+                                      <li><a href="#">Who we are</a>
+                                                            <ul class="">
+                                                                <li><a href="about.html">About</a></li>
+                                                                <li><a href="#">Methodology</a></li>
+                                                            </ul>
+                                                        </li>
+                                      <li><a href="#">Event</a></li>
+                                      <li><a href="#">Project</a></li>
+                                      <li><a href="#">Blog</a></li>
+                                      <li><a href="#footer">Contact Us</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -119,20 +139,25 @@
             </header>
             <!-- End header -->
             <!-- Start hiro unit area -->
-            <!-- <div class="hiro-unit-area  pt-90 pb-90">
-                <div class="container">
-                    <div class="row">
-                        <div class="text-center">
-                            <h1>We Build digital product</h1>
-                            <p>Specialising in customer experiences &amp; brand development, we combine digital craftsmanship.</p>
-                            <a href="#" class="btn-lg">Learn More</a>
+            <div class="container pt-50">
+                <div class="row">
+                    <!-- Start section title -->
+                    <div class="col-sm-12">
+                        <div class="section-title text-center">
+                            <h2>OUR <span>Methodology</span></h2>
+                            <img src="img/title-bottom.png" alt="">
+                          <!--   <p>We create events aiming to pear to the voice for children and gather for support. <br>Please update with our events and confirm you presence.</p> -->
                         </div>
                     </div>
+                    <!-- End section title -->
+
+
+
                 </div>
-            </div> -->
+            </div>
             <!-- End hiro unit area -->
             <!-- Start page damy content -->
-            <div class="page-damy-content pt-90 pb-90">
+            <div class="page-damy-content  pb-90">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
@@ -169,55 +194,43 @@
             <!-- End page damy content -->
 
             <!-- Start footer -->
-            <footer>
+            <footer id="footer">
                 <div class="footer-top pt-50 pb-50">
                     <div class="container">
                         <div class="row">
                             <div class="footer-widget-area">
                                 <!-- Start footer widget -->
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 pr-2">
                                     <div class="footer-widget widget-one">
                                         <div class="footer-widget-title">
                                             <h3>ABOUT US</h3>
                                         </div>
                                         <div class="widget-about-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tincidunt risus. </p>
+                                            <p>The Centre is poised to promote good governance and sustainable development, human and environmental rights, public good, accountability, transparency and equity in the socio-economic and political activities of the country.</p>
+                                            <p>The CIRDEV therefore, will use expert analyses, structured applied research and other modern knowledge impartation and dissemination techniques to operate and fulfill its aims and objectives.</p>
                                         </div>
-                                        <div class="widget-contact-content">
-                                            <h3>CONTACT US</h3>
-                                            <a href="tel:+0012345678">Phone :  +(00) 1234-5678</a>
-                                            <a href="mailto:info@cirdev-nigeria.org">Email :  info@cirdev-nigeria.org</a>
-                                            <p>Address :  122, New road, South Zone Country.</p>
-                                        </div>
+
                                     </div>
                                 </div>
                                 <!-- End footer widget -->
                                 <!-- Start footer widget -->
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 ">
                                     <div class="footer-widget widget-two">
                                         <div class="footer-widget-title">
-                                            <h3>OUR METHODOLOGY</h3>
+                                            <h3>CONTACT US</h3>
                                         </div>
                                         <nav>
-                                          <ul>
-                                              <li><a href="#">Education</a></li>
-                                              <li><a href="#">Research</a></li>
-                                              <li><a href="#">Advocacy</a></li>
-                                              <li><a href="#">Lobbying</a></li>
-                                              <li><a href="#">Campaign</a></li>
-                                              <li><a href="#">Technology</a></li>
-                                              <li><a href="#">Networking</a></li>
-                                          </ul>
+                                            <ul>
+                                                <li><a href="tel:+0012345678">Phone :  +(00) 1234-5678</a></li>
+                                                <li><a href="mailto:info@cirdev-nigeria.org">Email :  info@cirdev-nigeria.org</a></li>
+                                                <li><a href="#">Address :  122, New road, South Zone Country.</a></li>
+                                            </ul>
                                         </nav>
-                                    </div>
-                                </div>
-                                <!-- End footer widget -->
+                                        <div class="footer-widget widget-four">
+                                            <div class="footer-widget-title">
+                                                <h3>OUR NEWSLETTER</h3>
+                                            </div>
 
-                                <!-- Start footer widget -->
-                                <div class="col-sm-4">
-                                    <div class="footer-widget widget-four">
-                                        <div class="footer-widget-title">
-                                            <h3>NEWSLETTER</h3>
                                         </div>
                                         <div class="widget-about-content">
                                             <p>Sign up for our newsletter : Enter your email address, and click "Subscribe"</p>
@@ -234,6 +247,17 @@
                                                 <div class="mailchimp-error"></div><!-- mailchimp-error end -->
                                             </div><!-- mailchimp-alerts end -->
                                         </div>
+                                    </div>
+                                </div>
+                                <!-- End footer widget -->
+
+                                <!-- Start footer widget -->
+                                <div class="col-sm-4">
+                                    <div class="footer-widget widget-four">
+                                        <div class="footer-widget-title">
+                                            <h3>CONNECT US</h3>
+                                        </div>
+
                                     </div>
                                 </div>
                                 <!-- End footer widget -->
@@ -255,9 +279,7 @@
                                         <ul>
                                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+
                                             <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                         </ul>
                                     </nav>
@@ -269,7 +291,6 @@
                 </div>
             </footer>
             <!-- End footer -->
-
         </div>
         <!-- End main area -->
 
