@@ -298,11 +298,11 @@ body {
   position: static;
 }
 .main-menu ul li a {
-  color: #444;
+  color: green;
   font-family: "Raleway",sans-serif;
   font-size: 14px;
   padding: 7px 0;
-  font-weight: 500;
+  font-weight: bold;
   transition: all 0.3s ease 0s;
 }
 .main-menu ul li:hover a{
@@ -428,9 +428,9 @@ body {
   text-transform: uppercase;
 }
 .donate-button > a:hover{
-  border: 1px solid #555;
-  background: transparent;
-  color: #444;
+  border: 1px solid green;
+  background: green;
+  color: white;
 }
 .stick {
   animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
@@ -482,7 +482,7 @@ body {
   top: 12px;
 }
 .main-menu ul li.active a{
-  color: red;
+  color: orange;
 }
 /*----------------------------------------*/
 /*  3. Slider CSS
@@ -569,7 +569,7 @@ h1.title1 {
   margin-bottom: 40px;
 }
 .section-title h2 {
-  color: #1b1b1b;
+  color: green;
   font-family: raleway;
   font-size: 36px;
   font-weight: bold;
@@ -634,7 +634,17 @@ h1.title1 {
 /*  5. Help us area CSS
 /*----------------------------------------*/
 .help-us-area {
-  background: rgba(0, 0, 0, 0) url("img/help3.jpg") repeat fixed 0 0;
+
+background: rgba(0, 0, 0, 0) url("img/donate.jpg") repeat fixed 0 0;
+
+  background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   color: #fff;
 }
 .section-title-style-two.text-center {
@@ -665,6 +675,8 @@ h1.title1 {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
+  color: #E67E22;
+
 }
 .help-text > p {
   margin-bottom: 25px;
@@ -1185,7 +1197,7 @@ h1.title1 {
 /*  13. About us CSS
 /*----------------------------------------*/
 .page-title-area {
-  background: rgba(0, 0, 0, 0) url("img/help6.jpg") repeat scroll 0 0 / cover ;
+  background: rgba(0, 0, 0, 0) url("img/hand.jpg") repeat scroll 0 0 / cover ;
   padding: 150px 0 90px;
   position: relative;
 }
@@ -1444,6 +1456,7 @@ line-height: 36px;}
   height: 50px;
   padding: 0 15px;
   width: 100%;
+  outline-color: green;
 }
 .message-fields {
   clear: both;
@@ -1461,6 +1474,7 @@ line-height: 36px;}
   border: medium none;
   padding: 20px;
   width: 100%;
+  outline-color: green;
 }
 .form-button {
   margin-top: 20px;
