@@ -223,23 +223,23 @@
                                 <form id="contact-form" method="POST" action="mail.php">
                                     <div class="form-fields">
                                         <label for="name">Name</label>
-                                        <input id="name" name="name" type="text" placeholder="Your Name" required>
+                                        <input id="name" aria-label="name" name="name" type="text" placeholder="Your Name" required>
                                     </div>
                                     <div class="form-fields">
                                         <label for="email">Email</label>
-                                        <input id="email" name="email" type="text" placeholder="Your Email" required>
+                                        <input id="email" aria-label="email" name="email" type="text" placeholder="Your Email" required>
                                     </div>
                                     <div class="form-fields last">
                                         <label for="phone">Phone</label>
-                                        <input id="phone" name="phone" type="text" placeholder="Your Phone" required>
+                                        <input id="phone" aria-label="phone" name="phone" type="text" placeholder="Your Phone" required>
                                     </div>
                                     <div class="message-fields">
                                         <label for="mess">Message</label>
-                                        <textarea name="mess" id="mess" cols="30" rows="10" placeholder="Message"></textarea>
+                                        <textarea aria-label="message" name="mess" id="mess" cols="30" rows="10" placeholder="Message"></textarea>
                                     </div>
                                     <div class="form-button">
-                                        <button type="submit">Send your message</button>
-                                        <button type="reset">Reset</button>
+                                        <button aria-label="submit" type="submit">Send your message</button>
+                                        <button aria-label="reset" type="reset">Reset</button>
                                     </div>
                                 </form>
                                 <p class="form-messege"></p>
@@ -300,8 +300,8 @@
                                         <div class="newslater pb-20">
                                           <p style="color:white">Sign up for our newsletter : Enter your email address, and click "Subscribe"</p>
                                             <form id="mc-form" class="mc-form form">
-                                                <input id="mc-email" type="email" autocomplete="off"  placeholder="Email Address">
-                                                <button id="mc-submit" type="submit"><i class="fa fa-envelope" aria-hidden="true"></i></button>
+                                                <input id="mc-email" aria-label="email" type="email" autocomplete="off"  placeholder="Email Address">
+                                                <button id="mc-submit" aria-label="submit" type="submit"><i class="fa fa-envelope" aria-hidden="true"></i></button>
                                             </form>
                                             <!-- mailchimp-alerts Start -->
                                             <div class="mailchimp-alerts text-centre">
